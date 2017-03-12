@@ -11,7 +11,7 @@ using Nvoi.Backen.API.DAL;
 
 namespace Nvoi.Backen.API.Controllers
 {
-    [EnableCors(origins: "http://localhost:55000", headers: "*", methods: "*")]
+    [EnableCors(origins: "http://localhost:49280", headers: "*", methods: "*")]
     public class MerchantController : ApiController
     {
         private UnitOfWork uow = null;
